@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="sign.css">
   </head>
   <body>
-    <div class="loginbar"></div>
+    <div class="signbar"></div>
       <label id="sign">注册</label>
       <form id="putin">
 
-        
-        <input type="text" id="id" placeholder="请输入用户名">
+        <input type="text" id="id" placeholder="请输入id">
         <img id="id_p" src="png/md-person.svg">
+
+        <input type="text" id="username" placeholder="请输入用户名">
+        <img id="username_p" src="png/md-person.svg">
         
         <input type="password" id="password" placeholder="请输入密码">
         <img id="password_p" src="png/md-person(1).svg">
@@ -23,16 +25,7 @@
         <input type="password" id="repassword" placeholder="请重复密码">
         <img id="repassword_p" src="png/md-person(1).svg">
         <a id="register_label" href="login.html">已有账号</a>
-        <a href="select.html"><input type="button" id="sign_button" value="选择分论坛"> </a>
-
-        <div id="typehint">用户类型:</div>
-        <input id="type" type="text" list="typelist" placeholder="请选择" name="type">
-        <datalist id="typelist">
-  　　    <option value="1">主席</option>
-  　　    <option value="2">分论坛主席</option>
-          <option value="3">秘书</option>
-          <option value="4">参会者</option>
-        </datalist>
+        <input type="button" id="sign_button" value="注册">
       </form>
       <script src="index.js"></script>
     
