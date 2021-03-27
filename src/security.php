@@ -60,7 +60,7 @@
                                 <div style=\"font-size: 20px;}\">今天新加入了".$this->num_results."位伙伴哦</div>"; //返回页数
                         }
                         function setMessage($message) { //发帖
-                             
+                            require('usersee.php');
                             require('config.php');
                             $db = new mysqli($db_host, 	$db_username, $db_password, $db_database);
                         
@@ -71,7 +71,7 @@
                               // 设置字符集
                             $db->query("SET NAMES utf8");
                          
-                            $query = "insert into msg values('".$message."','".date('Y-m-d')."','".$this->forumId."')"; 
+                            $query = "insert into msg values('".$username."','".$message."','".date('Y-m-d')."','".$this->forumId."')"; 
                             $result = $db->query($query); 
                         }
                       }
