@@ -12,6 +12,19 @@
 session_start();
 $idd= $_SESSION['val'];    //直接输出全局变量val.
 include ('usersee.php');
+include ('bool.php');
+if($b1==0)
+    $xian1="none";
+else $xian1="block";
+
+if($b2==0)
+    $xian2="none";
+else $xian2="block";
+
+if($b3==0)
+    $xian3="none";
+else $xian3="block";
+
  print <<<EOT
  <div class="main">
             <div class="container">
@@ -61,7 +74,7 @@ include ('usersee.php');
                             </div>
                         <hr>
                         <div class="row clearfix" id="luntan" >
-                                <div class="col-md-3 column" onclick="document.location.href='luntan.php?luntanid=1'">
+                                <div style="display: $xian1" class="col-md-3 column" onclick="document.location.href='luntan.php?luntanid=1'">
                                     <div class="luntanimg1"></div>
                                     <h3>
                                         北京分论坛
@@ -83,7 +96,7 @@ include ('usersee.php');
                                         
                                     </ul>
                                 </div>
-                                <div class="col-md-3 column" onclick="document.location.href='luntan.php?luntanid=2'">
+                                <div style="display: $xian2" class="col-md-3 column" onclick="document.location.href='luntan.php?luntanid=2'">
                                     <div class="luntanimg2"></div>
                                     <h3>
                                         福州分论坛
@@ -112,7 +125,7 @@ include ('usersee.php');
                                         </li>
                                     </ul>
                                 </div>
-                                <div class="col-md-3 column" onclick="document.location.href='luntan.php?luntanid=3'">
+                                <div  style="display: $xian3" class="col-md-3 column" onclick="document.location.href='luntan.php?luntanid=3'">
                                     <div class="luntanimg3"></div>
                                     <h3>
                                         山西分论坛

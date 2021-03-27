@@ -36,8 +36,11 @@ if($password == $pwd) {
 
 
     $res = $mysqli->query($sql,$conn);
+    session_start();
+    $_SESSION['sign']=$id;
+
     if($res){
-        header("Location: /ceshi/ue.php");exit;
+        header("Location: /ceshi/select.html");exit;
     }else{
         echo'对不起！注册失败:',mysqli_error(),'<br/>';
         echo '<a href="javascript:history.back(-1);">返回重试</a>';
