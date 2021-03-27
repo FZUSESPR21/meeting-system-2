@@ -15,11 +15,11 @@
         <input type="text" id="id" placeholder="请输入用户名">
         <img id="id_p" src="png/md-person.svg">
         <input type="password" id="password" placeholder="请输入密码">
-        <input type="button" id="sign_button" value="登录">
+        <input type="button" id="login_button" value="登录">
         <a id="register_label" href="sign.html">注册账号</a>
         <img id="password_p" src="png/md-person(1).svg">
         <div id="typehint">用户类型:</div>
-        <input id="type" type="text" list="typelist" placeholder="请选择">
+        <input id="type" type="text" list="typelist" placeholder="请选择" name="type">
         <datalist id="typelist">
   　　    <option value="1">主席</option>
   　　    <option value="2">分论坛主席</option>
@@ -27,5 +27,7 @@
           <option value="4">参会者</option>
         </datalist>
       </form>
+      <script src="index.js"></script>
+    
   </body>
 </html>
