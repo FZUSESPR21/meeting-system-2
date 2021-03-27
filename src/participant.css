@@ -1,0 +1,82 @@
+body
+{
+    background: rgb(228, 247, 255);
+}
+.main{
+    background: rgb(228, 247, 255);
+    padding: 0 5%;
+}
+.topbar{
+    background: rgba(255, 255, 255,0.7);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 8px auto;
+    box-shadow: 0 0 1px 1px;
+}
+.rightbar{
+    background: rgba(255, 255, 255,0.7);
+    padding:10px ;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px;
+}
+.login{
+    background: blue;
+    color: white;
+    font-weight: lighter;
+}
+.col-md-2{
+    display: flex;
+    justify-content: center;
+    line-height: 100%;
+}
+.col-md-3{
+    margin: 4%;
+    padding: 10px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 10px;
+    border: 1px black solid;
+}
+.rightBodyer
+{
+    width:80%;
+    text-align: right;
+    float: right;
+    clear: right;
+    overflow:hidden;
+}
+.leftBodyer
+{
+    border: black;
+    width:20%;
+    text-align:left;
+    float: left;
+    clear: left;
+    overflow:hidden;
+    border-width:1px,1px,1px,1px;
+    border-color: black;
+}
+#hr
+{
+   border:10px;
+   height:1px;
+   background-color: black;
+
+}
+.notice
+{
+    margin:0px;
+    width: 150px;
+    height: 1000px;
+    text-align:left;
+    border:1px solid black;
+    border-radius: 30px;
+}
+
+#a
+{
+ border: none;
+ background-color:  rgb(228, 247, 255);
+ margin-top: 20px;
+ margin-left: 1px;
+}
+
