@@ -54,17 +54,12 @@
             <div class="container">
                 <div class="bottombar">
                     <div class="row clearfix" id="tongzhi">
-                        <div class="col-md-12 column">
-                            <p>
-                                <strong>请输入您要通知的内容：</strong>
-                            </p> 
-                            <textarea rows="8" cols="150">
-
-                            </textarea>
-                            <hr>
-                            <p>
-                                <button type="button" class="btn btn-primary btn-large">提交</button>
-                            </p>
+                        <div id="new_message">
+                            <label id="lab">最近有什么新动向吗</label>            
+                            <form id="putin">
+                                <textarea id="message" placeholder="请输入要发布的内容" cols="130" rows="8" style="OVERFLOW:hidden"></textarea>
+                                <input type="button" id="assign_button" value="发布">
+                            </form>
                         </div>
                     </div>
                 </div>    
