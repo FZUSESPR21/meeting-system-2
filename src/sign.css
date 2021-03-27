@@ -1,14 +1,14 @@
 body{
     left: 0px;
     top: 0px;
-    background: rgb(236, 236, 236);
+    background: white;
 }
-.loginbar{
+.signbar{
 position: absolute;
 left: 470px;
 top: 120px;
 width: 550px;
-height: 530px;
+height: 520px;
 background: rgba(255, 255, 255,0.5);
 border-radius: 30px;
 border: 1px rgba(0, 0, 0, 0.3) solid;
@@ -45,7 +45,7 @@ top: 220px;
 width: 24px;
 height: 24px;
 }
-#password{
+#username{
 position:absolute;
 left: 520px;
 top: 294px;
@@ -58,14 +58,14 @@ text-indent: 65px;
 border: 1px solid rgba(211, 211, 211, 100);
 outline: none;
 }
-#password_p{
+#username_p{
     position:absolute;
     left: 545px;
     top: 315px;
     width: 24px;
     height: 24px;
 }
-#repassword{
+#password{
     position:absolute;
     left: 520px;
     top: 380px;
@@ -78,36 +78,37 @@ outline: none;
     border: 1px solid rgba(211, 211, 211, 100);
     outline: none;
 }
-#repassword_p{
+#password_p{
     position:absolute;
     left: 545px;
     top: 400px;
     width: 24px;
     height: 24px;
 }
-#typehint{
-position:absolute;
-left: 545px;
-top: 468px;
-font-size: 18px;
+#repassword{
+    position:absolute;
+    left: 520px;
+    top: 460px;
+    width: 440px;
+    height: 60px;
+    line-height: 20px;
+    border-radius: 30px;
+    text-align: left;
+    text-indent: 65px;
+    border: 1px solid rgba(211, 211, 211, 100);
+    outline: none;
 }
-#type{
-position:absolute;
-left: 818px;
-top: 460px;
-padding-right: 10px;
-font-weight: bold;
-text-indent: 18px;
-height: 36px;
-width: 140px;
-border-radius: 20px;
-outline: none;
-border: 1px solid rgba(211, 211, 211, 100);
+#repassword_p{
+    position:absolute;
+    left: 545px;
+    top: 480px;
+    width: 24px;
+    height: 24px;
 }
 #register_label{
 position:absolute;
 left: 895px;
-top: 525px;
+top: 530px;
 width: 64px;
 height: 24px;
 color: rgba(170, 170, 170, 100);
