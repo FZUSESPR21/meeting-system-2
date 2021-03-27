@@ -1,11 +1,11 @@
 body{
   left: 0px;
   top: 0px;
-  background: rgb(228, 247, 255);
+  background: white;
 }
 .loginbar{
   position: absolute;
-  left: 380px;
+  left: 470px;
   top: 120px;
   width: 550px;
   height: 500px;
@@ -16,7 +16,7 @@ body{
 }
 #sign  {
   position:absolute;
-  left: 430px;
+  left: 505px;
   top: 150px;
   width: 49px;
   height: 36px;
@@ -27,7 +27,7 @@ body{
 }
 #id{
   position:absolute;
-  left: 430px;
+  left: 520px;
   top: 220px;
   width: 440px;
   height: 60px;
@@ -36,17 +36,18 @@ body{
   text-align: left;
   text-indent: 65px;
   border: 1px solid rgba(211, 211, 211, 100);
+  outline: none;
 }
 #id_p{
   position:absolute;
-  left: 455px;
+  left: 545px;
   top: 240px;
   width: 24px;
   height: 24px;
 }
 #password{
   position:absolute;
-  left: 430px;
+  left: 520px;
   top: 324px;
   width: 440px;
   height: 60px;
@@ -55,23 +56,24 @@ body{
   text-align: left;
   text-indent: 65px;
   border: 1px solid rgba(211, 211, 211, 100);
+  outline: none;
 }
 #password_p{
   position:absolute;
-  left: 455px;
+  left: 545px;
   top: 342px;
   width: 24px;
   height: 24px;
 }
 #typehint{
   position:absolute;
-  left: 455px;
+  left: 545px;
   top: 418px;
   font-size: 18px;
 }
 #type{
   position:absolute;
-  left: 720px;
+  left: 812px;
   top: 410px;
   padding-right: 10px;
   font-weight: bold;
@@ -84,7 +86,7 @@ body{
 }
 #register_label{
   position:absolute;
-  left: 805px;
+  left: 895px;
   top: 465px;
   width: 64px;
   height: 24px;
@@ -93,9 +95,9 @@ body{
   text-align: left;
   font-family: SourceHanSansSC-regular;
 }
-#sign_button{
+#login_button{
   position:absolute;
-  left: 432px;
+  left: 520px;
   top: 500px;
   width: 440px;
   height: 60px;
@@ -108,8 +110,9 @@ body{
   font-family: Roboto;
   border: 1px solid rgba(255, 255, 255, 100);
   transition: 0.4s;
+  outline: none;
 }
-#sign_button:hover{
+#login_button:hover{
   background-color: white;
   color: black;
   border: 1px black solid;
