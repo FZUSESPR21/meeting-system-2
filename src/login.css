@@ -1,0 +1,116 @@
+body{
+  left: 0px;
+  top: 0px;
+  background: rgb(228, 247, 255);
+}
+.loginbar{
+  position: absolute;
+  left: 380px;
+  top: 120px;
+  width: 550px;
+  height: 500px;
+  background: rgba(255, 255, 255,0.5);
+  border-radius: 30px;
+  border: 1px rgba(0, 0, 0, 0.3) solid;
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.3);
+}
+#sign  {
+  position:absolute;
+  left: 430px;
+  top: 150px;
+  width: 49px;
+  height: 36px;
+  color: rgba(16, 16, 16, 100);
+  font-size: 24px;
+  text-align: left;
+  font-family: SourceHanSansSC-bold;
+}
+#id{
+  position:absolute;
+  left: 430px;
+  top: 220px;
+  width: 440px;
+  height: 60px;
+  line-height: 20px;
+  border-radius: 30px;
+  text-align: left;
+  text-indent: 65px;
+  border: 1px solid rgba(211, 211, 211, 100);
+}
+#id_p{
+  position:absolute;
+  left: 455px;
+  top: 240px;
+  width: 24px;
+  height: 24px;
+}
+#password{
+  position:absolute;
+  left: 430px;
+  top: 324px;
+  width: 440px;
+  height: 60px;
+  line-height: 20px;
+  border-radius: 30px;
+  text-align: left;
+  text-indent: 65px;
+  border: 1px solid rgba(211, 211, 211, 100);
+}
+#password_p{
+  position:absolute;
+  left: 455px;
+  top: 342px;
+  width: 24px;
+  height: 24px;
+}
+#typehint{
+  position:absolute;
+  left: 455px;
+  top: 418px;
+  font-size: 18px;
+}
+#type{
+  position:absolute;
+  left: 720px;
+  top: 410px;
+  padding-right: 10px;
+  font-weight: bold;
+  text-indent: 18px;
+  height: 36px;
+  width: 140px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid rgba(211, 211, 211, 100);
+}
+#register_label{
+  position:absolute;
+  left: 805px;
+  top: 465px;
+  width: 64px;
+  height: 24px;
+  color: rgba(170, 170, 170, 100);
+  font-size: 16px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+}
+#sign_button{
+  position:absolute;
+  left: 432px;
+  top: 500px;
+  width: 440px;
+  height: 60px;
+  line-height: 23px;
+  border-radius: 30px;
+  background-color: rgba(57, 82, 253, 100);
+  color: rgba(255, 255, 255, 100);
+  font-size: 16px;
+  text-align: center;
+  font-family: Roboto;
+  border: 1px solid rgba(255, 255, 255, 100);
+  transition: 0.4s;
+}
+#sign_button:hover{
+  background-color: white;
+  color: black;
+  border: 1px black solid;
+}
