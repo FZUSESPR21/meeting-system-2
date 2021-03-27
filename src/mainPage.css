@@ -38,11 +38,27 @@
     background-size: contain;
     background-position: 50%;
 }
-.luntanimg{
+.luntanimg1{
     width: 100%;
-    height: 100px;
+    height: 160px;
     border-radius: 20px;
-    background: url("png/meet.png") no-repeat;
+    background: url("png/luntan1.png") no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+.luntanimg2{
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
+    background: url("png/luntan2.png") no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+.luntanimg3{
+    width: 100%;
+    height: 160px;
+    border-radius: 20px;
+    background: url("png/luntan3.png") no-repeat;
     background-size: contain;
     background-position: 50%;
 }
