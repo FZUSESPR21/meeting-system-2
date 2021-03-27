@@ -78,7 +78,7 @@
                       $secretary = new Secretary;
                       $secretary->collect();
                       $secretary->getpage();
-                      $ww= $_POST['message'];
+                      $ww= isset($_POST['message'])? $_POST['message']:'NA';
                       $secretary->setMessage($ww);
                     ?>
                     

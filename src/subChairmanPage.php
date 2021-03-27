@@ -76,7 +76,7 @@
                                 }
                                 $forumleader = new Forumleader;
                                 $forumleader->collect();
-                                $ww= $_POST['message'];
+                                $ww=isset($_POST['message'])? $_POST['message']:'NA';
                                 $forumleader->setMessage($ww);
                             ?>
                             <h1>
