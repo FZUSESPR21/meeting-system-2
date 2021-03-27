@@ -1,0 +1,58 @@
+.main{
+    background: rgb(228, 247, 255);
+    padding: 0 5%;
+    height: 100%;
+}
+.topbar{
+    background: rgba(255, 255, 255,0.7);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 8px auto;
+    box-shadow: 0 0 1px 1px;
+}
+.midbar{
+    background: rgba(255, 255, 255,0.7);
+    padding:10px ;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px;
+}
+.bottombar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255,0.7);
+    padding:10px ;
+    border-radius: 10px;
+    box-shadow: 0 0 1px 1px;
+}
+.luntanimg{
+    width: 100%;
+    height: 100px;
+    border-radius: 20px;
+    background: url("../partenerWoek1/png/meet.png") no-repeat;
+    background-size: contain;
+    background-position: 50%;
+}
+.btn-default{
+    display: inline-block;
+    border: 0;
+    background: none ;
+    box-shadow: none;
+    margin: auto 10px;
+}
+.logout{
+    background: blue;
+    color: white;
+    font-weight: lighter;
+}
+.col-md-2{
+    display: flex;
+    justify-content: center;
+    line-height: 100%;
+}
+.col-md-3{
+    margin: 4%;
+    padding: 10px;
+    background: rgba(204, 204, 204, 0.5);
+    border-radius: 10px;
+    border: 1px black solid;
+}
