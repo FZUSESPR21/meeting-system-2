@@ -22,16 +22,16 @@
         
         <input type="password" id="repassword" placeholder="请重复密码">
         <img id="repassword_p" src="png/md-person(1).svg">
-        <a id="register_label" href="select.html">选择论坛</a>
-        <input type="button" id="sign_button" value="注册">
+        <a id="register_label" href="login.html">已有账号</a>
+        <a href="select.html"><input type="button" id="sign_button" value="选择分论坛"> </a>
 
         <div id="typehint">用户类型:</div>
-        <input id="type" type="text" list="typelist" placeholder="请选择">
+        <input id="type" type="text" list="typelist" placeholder="请选择" name="type">
         <datalist id="typelist">
-  　　    <option>主席</option>
-  　　    <option>分论坛主席</option>
-          <option>秘书</option>
-          <option>参会者</option>
+  　　    <option value="1">主席</option>
+  　　    <option value="2">分论坛主席</option>
+          <option value="3">秘书</option>
+          <option value="4">参会者</option>
         </datalist>
       </form>
       <script src="index.js"></script>
