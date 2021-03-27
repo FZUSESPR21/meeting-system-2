@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.0.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/3.0.1/css/bootstrap-theme.min.css" rel="stylesheet">
+        <link href="prolocutor.css" rel="stylesheet">
+        <title>会议主席</title>
+    </head>
+    <body>
+        <div class="main">
+            <div class="container">
+                <div class="topbar">
+                    <div class="row clearfix">                        
+                        <div class="col-md-1 column" style="border: 1px black soild;">这里的z主席ggggg昵称 ▼</div>
+                    </div>
+                </div>
+                <div id="page_nav">
+                    <label id="total">当前会议人数已经到达${page.totalRecord}人啦！</label>
+                    <table width=1110px height=50px>
+                        <tr style="background-color:rgb(247, 244, 244)"><th style="padding-left:20px;">论坛名称</th><th>论坛议题</th><th>分论坛主席</th><th>当前人数</th></tr>
+                    <!--
+                    < ?php
+                    $link=mysql_connect('localhost','root','123')or die("数据库连接失败");
+                    //连接数据库
+                    mysql_select_db('lyb',$link);//选择数据库
+                    mysql_query("set names utf8");//设置编码格式
+                    
+                    $q="select * from content";//设置查询指令
+                    $result=mysql_query($q);//执行查询
+                    while($row=mysql_fetch_assoc($result))//将result结果集中查询结果取出一条
+                    {
+                     echo"<tr><td>".$row["username"]."</td><td>".$row["id"]."</td><td>".$row["title"]."</td><td>".$row["chart"]."</td><td>".$row["num"]."</td><tr>"; 
+                    }
+                    ?>
+                    -->
+                    </table>
+                </div>
+            </div>       
+        </div>
+    </body>
+</html>
