@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>force paper</title>
+    <link rel="stylesheet" href="sign.css">
+  </head>
+  <body>
+    <div class="loginbar"></div>
+      <label id="sign">注册</label>
+      <form id="putin">
+
+        
+        <input type="text" id="id" placeholder="请输入用户名">
+        <img id="id_p" src="png/md-person.svg">
+        
+        <input type="password" id="password" placeholder="请输入密码">
+        <img id="password_p" src="png/md-person(1).svg">
+        
+        <input type="password" id="repassword" placeholder="请重复密码">
+        <img id="repassword_p" src="png/md-person(1).svg">
+        <a id="register_label" href="login.html">已有账号</a>
+        <input type="button" id="sign_button" value="注册">
+
+        <div id="typehint">用户类型:</div>
+        <input id="type" type="text" list="typelist" placeholder="请选择">
+        <datalist id="typelist">
+  　　    <option>主席</option>
+  　　    <option>分论坛主席</option>
+          <option>秘书</option>
+          <option>参会者</option>
+        </datalist>
+      </form>
+      <script src="index.js"></script>
+    
+  </body>
+</html>
